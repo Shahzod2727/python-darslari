@@ -16,16 +16,16 @@
 #Foydalanuvchidan aylaning radiusini qabul qilib olib,
 # uning radiusini, diametrini, perimetri va yuzini lug'at ko'rinishida qaytaruvchi funksiya yozing
 
-#def aylana(r):
-#    R = {
-#        'r':r,
-#        'd':2*r,
-#        's':(3.14)*r*r
-#    }
+def aylana(r):
+    R = {
+        'r':r,
+        'd':2*r,
+        's':(3.14)*r*r
+    }
 
-#    return R
-#a = aylana(5)
-#print(a)
+    return R
+a = aylana(5)
+print(a)
 
 #Berilgan oraliqdagi tub sonlar ro'yxatini qaytaruvchi funksiya yozing
 #  (tub sonlar —faqat birga va o'ziga qoldiqsiz bo'linuvchi, 1 dan katta musbat sonlar)
